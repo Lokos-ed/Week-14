@@ -1,0 +1,29 @@
+{
+    "recipes": [
+      {
+        "name": "Cherry Pie",
+        "description": "A sweet and sour pie made with cherries.",
+        "ingredients": "Sour Cherries, granulated sugar, lemon juice, cornstarch, butter, ground cinnamon, egg white"
+      },
+      {
+        "name": "Vanilla Cake",
+        "description": "A classic dessert typically seen on birthdays",
+        "ingredients": "Eggs, powdered sugar, sugar, salt, butter, cream, buttermilk, baking powder, vanilla extract, flour"
+      },
+      {
+        "name": "meow",
+        "description": "meow",
+        "ingredients": "meow"
+      },
+      {
+        "name": "mewo",
+        "description": "mroawr",
+        "ingredients": "woof"
+      },
+      {
+        "name": "idk anymore",
+        "description": "you're cool",
+        "ingredients": ":3"
+      }
+    ]
+  }
