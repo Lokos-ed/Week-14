@@ -57,12 +57,12 @@ function App() {
     NewRoot.render(<RCard Name={NameB} Desc={DescB} Ins={InsB} />);
   }
 
- /* function handleClick() {
+  function handleClick() {
     const NameBox = document.getElementById("NameBox") as HTMLInputElement
     const DescriptionBox = document.getElementById('DescriptionBox') as HTMLInputElement
     const IngredientBox = document.getElementById('IngredientBox') as HTMLInputElement
     CreateRCard(NameBox!.value!, DescriptionBox!.value!, IngredientBox!.value!)
-  } */
+  }
 
   /*creates a promise function that delays the loading of the testdata as RCards, this is necessary because the columns that RCards appear within don't exist until the html is created below.
    Because promises are asynchronous the code below is executed while the function is waiting for the delay.*/
@@ -117,7 +117,7 @@ function App() {
     <ul style={{ listStyleType: "none", display: "inline-block" }}>
       <li>
         <div>
-          <button>
+          <button onClick={handleClick}>
             Click me
           </button>
         </div>
