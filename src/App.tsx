@@ -33,18 +33,7 @@ function App() {
 
     TestList.sort(compareNumbers);
 
-    if (TestList[0][1] == "column1") {
-        UsingRoot = "column1";
-    }
-    else if (TestList[0][1] == "column2") {
-        UsingRoot = "column2"
-    }
-    else if (TestList[0][1] == "column3") {
-        UsingRoot = "column3"
-    }
-    else if (TestList[0][1] == "column4") {
-        UsingRoot = "column4"
-    }
+    UsingRoot = TestList[0][1]
 
     /*Creates a new div to store the created React Component RCard. Creates a new root inside that div, roots are required to display React Components inside of HTML.
     It's necessary to create a new div because .render "will clear all the existing HTML content inside the domNode before rendering the React component into it." (https://18.react.dev/reference/react-dom/render) */
