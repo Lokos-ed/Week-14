@@ -11,19 +11,9 @@
         "ingredients": "Eggs, powdered sugar, sugar, salt, butter, cream, buttermilk, baking powder, vanilla extract, flour"
       },
       {
-        "name": "meow",
-        "description": "meow",
-        "ingredients": "meow"
-      },
-      {
-        "name": "mewo",
-        "description": "mroawr",
-        "ingredients": "woof"
-      },
-      {
-        "name": "idk anymore",
-        "description": "you're cool",
-        "ingredients": ":3"
+        "name": "Cupcakes",
+        "description": "Cake batter poured into small cups with frosting on top",
+        "ingredients": "Eggs, powdered sugar, sugar, salt, butter, cream, buttermilk, baking powder, vanilla extract, flour"
       }
     ]
   }
